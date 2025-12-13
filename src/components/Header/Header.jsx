@@ -1,5 +1,4 @@
 import "./Header.css";
-import logo from "../../assets/Aleika.png";
 import { Link } from "react-router-dom";
 import aleikaLogo from "../../assets/AleikaLogo.png";
 function Header() {

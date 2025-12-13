@@ -12,7 +12,8 @@ function Projects() {
         <a
           href="https://adelapaz33.github.io/news-explorer-frontend"
           target="_blank"
-          rel="nonreferrer"
+    
+          rel="noopener noreferrer"
         >
           <img
             src={newsExplorer}
@@ -59,7 +60,7 @@ function Projects() {
         <a
           href="https://youtu.be/eGQR6fo5mP8"
           target="_blank"
-          rel="nonreferrer"
+          rel="noopener noreferrer"
         >
           <img
             src={whatToWear}
@@ -105,7 +106,7 @@ function Projects() {
         <a
           href="https://adelapaz33.github.io/se_project_spots/"
           target="_blank"
-          rel="nonreferrer"
+          rel="noopener noreferrer"
         >
           <img
             src={spotsLanding}
@@ -151,7 +152,7 @@ function Projects() {
         <a
           href="https://adelapaz33.github.io/se_project_coffeeshop/"
           target="_blank"
-          rel="nonreferrer"
+          rel="noopener noreferrer"
         >
           <img
             src={coffeeShop}
