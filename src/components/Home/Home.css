@@ -1,0 +1,35 @@
+.home {
+  background-color: #fafafa;
+  padding: 20px 50px 20px 50px;
+}
+.home__main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.home__tagline {
+  text-align: left;
+  max-width: 700px;
+}
+.home__headshot {
+  height: 232px;
+  width: 232px;
+  padding: 0;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #7c3aed;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.home__tagline {
+  font-weight: 700;
+  color: #7c3aed;
+}
+
+.home__text {
+  color: #374151;
+  line-height: 1.6;
+}

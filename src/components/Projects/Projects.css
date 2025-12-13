@@ -1,0 +1,43 @@
+.project {
+  background-color: #fafafa;
+  padding: 20px 50px 20px 50px;
+}
+.project__cards {
+  display: flex;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.project__image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  object-fit: contain;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+
+  aspect-ratio: 16 / 10;
+  transition: transform 0.3s ease;
+  border: 1px solid #e5e7eb;
+}
+
+.project__description {
+  color: #374151;
+  line-height: 1.6;
+}
+.projec__card:hover .project__image {
+  transform: scale(1.02);
+}
+
+.project__links {
+  display: flex;
+  gap: 20px;
+}
+.project__link {
+  text-decoration: none;
+  color: #7c3aed;
+}
+.project__link:hover {
+  opacity: 70%;
+}

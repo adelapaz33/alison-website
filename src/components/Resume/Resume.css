@@ -1,0 +1,30 @@
+.resume {
+  padding: 25px 30px;
+  background-color: #fafafa;
+}
+.resume__title {
+  color: #1f2937;
+  text-align: center;
+}
+
+.resume__intro {
+  color: #374151;
+}
+
+.resume__button {
+  text-decoration: none;
+  color: #7c3aed;
+}
+
+.resume__button:hover {
+  opacity: 50%;
+}
+.resume__image {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
