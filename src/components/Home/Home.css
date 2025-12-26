@@ -33,3 +33,10 @@
   color: #374151;
   line-height: 1.6;
 }
+
+
+.home__link{
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+}

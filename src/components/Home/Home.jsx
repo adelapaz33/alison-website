@@ -14,7 +14,7 @@ function Home() {
         </div>
         <p className="home__text">
           Hi, I’m Alison, a full-stack software engineer with a background in
-          arts management and donor relations. My journey into tech began while
+          music education and donor relations. My journey into tech began while
           working in the nonprofit world, where I regularly used a CRM, built
           analytics dashboards, and streamlined systems for my team. Hands-on
           problem-solving with data sparked my curiosity and inspired me to dive
@@ -23,25 +23,26 @@ function Home() {
 
         <p className="home__text">
           I build full-stack applications with JavaScript, TypeScript, React,
-          React Native, Node.js, Express.js, HTML/CSS, and MongoDB. I have a
+          React Native, Node.js, Express.js, HTML/CSS, SQL and MongoDB. I have a
           particular interest in front-end development, but I continue to
           strengthen my backend skills. I enjoy blending creativity with logic
           and always look for fresh, thoughtful ways to solve problems. You can
-          see my projects on my GitHub:{" "}
+          see my projects on my GitHub{" "}
           <a
             href="https://github.com/adelapaz33"
             target="_blank"
             rel="noopener noreferrer"
+            className="home__link"
           >
-            https://github.com/adelapaz33
+            here
           </a>
           .
         </p>
 
         <p className="home__text">
           Before transitioning into tech, I ran a private voice studio, teaching
-          students of all ages. This experience sharpened my ability to solve
-          problems on the spot, adapt to different learning styles, and
+          music to students of all ages. This experience sharpened my ability to
+          solve problems on the spot, adapt to different learning styles, and
           communicate clearly, all skills I now apply to writing and debugging
           code.
         </p>
@@ -56,12 +57,29 @@ function Home() {
 
         <p className="home__text">
           Outside of work, you’ll usually find me walking my dog Aleika,
-          cycling, or getting lost in a good book.
+          cycling, or getting lost in a good book. To learn about me through
+          song, click{" "}
+          <a
+            href="https://suno.com/s/9IYJL0KXiZXOUuu7"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="home__link"
+          >
+            HERE!
+          </a>
         </p>
-        {/* <p>
-        <Link to="/projects">Check out my projects </Link>to see what I've been
-        working on!
-      </p> */}
+        <p className="home__text">
+          Interested in working together?
+          <a
+            href="mailto:arhibschle@gmail.com?subject=Let's%20Connect!"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="home__link"
+          >
+            {" "}
+            Let's Connect!
+          </a>
+        </p>
       </section>
     </>
   );
