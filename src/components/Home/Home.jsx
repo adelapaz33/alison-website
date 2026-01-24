@@ -1,15 +1,20 @@
 import headShot from "../../assets/SideViewPhoto.jpg";
 import "./Home.css";
+import { motion } from "framer-motion";
 
 function Home() {
   return (
     <>
       <section className="home">
         <div className="home__main">
-          <h2 className="home__tagline">
+          <motion.h2
+            className="home__tagline"
+            initial={{ y: -250 }}
+            animate={{ y: 20 }}
+          >
             ⚡ From music to markup, I create thoughtful, user-friendly designs
             and solve problems with clarity and creativity.
-          </h2>
+          </motion.h2>
           <img className="home__headshot" src={headShot} alt="headshot" />
         </div>
         <p className="home__text">
